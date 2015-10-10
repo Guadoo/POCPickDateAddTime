@@ -14,6 +14,7 @@
 		94D13B271BC8FC3A002FEDB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D13B261BC8FC3A002FEDB1 /* Images.xcassets */; };
 		94D13B2A1BC8FC3A002FEDB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94D13B281BC8FC3A002FEDB1 /* LaunchScreen.xib */; };
 		94D13B361BC8FC3A002FEDB1 /* POCPickDateAddTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D13B351BC8FC3A002FEDB1 /* POCPickDateAddTimeTests.swift */; };
+		94D13B421BC8FC66002FEDB1 /* ASDayPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D13B411BC8FC66002FEDB1 /* ASDayPicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,9 @@
 		94D13B2F1BC8FC3A002FEDB1 /* POCPickDateAddTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCPickDateAddTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D13B341BC8FC3A002FEDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94D13B351BC8FC3A002FEDB1 /* POCPickDateAddTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCPickDateAddTimeTests.swift; sourceTree = "<group>"; };
+		94D13B3F1BC8FC65002FEDB1 /* POCPickDateAddTime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POCPickDateAddTime-Bridging-Header.h"; sourceTree = "<group>"; };
+		94D13B401BC8FC66002FEDB1 /* ASDayPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDayPicker.h; sourceTree = "<group>"; };
+		94D13B411BC8FC66002FEDB1 /* ASDayPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDayPicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 				94D13B261BC8FC3A002FEDB1 /* Images.xcassets */,
 				94D13B281BC8FC3A002FEDB1 /* LaunchScreen.xib */,
 				94D13B1E1BC8FC3A002FEDB1 /* POCPickDateAddTime.xcdatamodeld */,
+				94D13B431BC8FFF5002FEDB1 /* ASDayPicker */,
 				94D13B1A1BC8FC3A002FEDB1 /* Supporting Files */,
 			);
 			path = POCPickDateAddTime;
@@ -113,6 +118,16 @@
 				94D13B341BC8FC3A002FEDB1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94D13B431BC8FFF5002FEDB1 /* ASDayPicker */ = {
+			isa = PBXGroup;
+			children = (
+				94D13B3F1BC8FC65002FEDB1 /* POCPickDateAddTime-Bridging-Header.h */,
+				94D13B401BC8FC66002FEDB1 /* ASDayPicker.h */,
+				94D13B411BC8FC66002FEDB1 /* ASDayPicker.m */,
+			);
+			name = ASDayPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D13B421BC8FC66002FEDB1 /* ASDayPicker.m in Sources */,
 				94D13B221BC8FC3A002FEDB1 /* ViewController.swift in Sources */,
 				94D13B201BC8FC3A002FEDB1 /* POCPickDateAddTime.xcdatamodeld in Sources */,
 				94D13B1D1BC8FC3A002FEDB1 /* AppDelegate.swift in Sources */,
@@ -344,9 +360,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = POCPickDateAddTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "POCPickDateAddTime/POCPickDateAddTime-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -354,9 +373,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = POCPickDateAddTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "POCPickDateAddTime/POCPickDateAddTime-Bridging-Header.h";
 			};
 			name = Release;
 		};
