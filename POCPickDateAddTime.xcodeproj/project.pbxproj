@@ -15,6 +15,7 @@
 		94D13B2A1BC8FC3A002FEDB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94D13B281BC8FC3A002FEDB1 /* LaunchScreen.xib */; };
 		94D13B361BC8FC3A002FEDB1 /* POCPickDateAddTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D13B351BC8FC3A002FEDB1 /* POCPickDateAddTimeTests.swift */; };
 		94D13B421BC8FC66002FEDB1 /* ASDayPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D13B411BC8FC66002FEDB1 /* ASDayPicker.m */; };
+		94D13B471BC96E3C002FEDB1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 94D13B461BC96E3C002FEDB1 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		94D13B3F1BC8FC65002FEDB1 /* POCPickDateAddTime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POCPickDateAddTime-Bridging-Header.h"; sourceTree = "<group>"; };
 		94D13B401BC8FC66002FEDB1 /* ASDayPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDayPicker.h; sourceTree = "<group>"; };
 		94D13B411BC8FC66002FEDB1 /* ASDayPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDayPicker.m; sourceTree = "<group>"; };
+		94D13B461BC96E3C002FEDB1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		94D13B0E1BC8FC3A002FEDB1 = {
 			isa = PBXGroup;
 			children = (
+				94D13B461BC96E3C002FEDB1 /* Podfile */,
 				94D13B191BC8FC3A002FEDB1 /* POCPickDateAddTime */,
 				94D13B321BC8FC3A002FEDB1 /* POCPickDateAddTimeTests */,
 				94D13B181BC8FC3A002FEDB1 /* Products */,
@@ -83,6 +86,7 @@
 		94D13B191BC8FC3A002FEDB1 /* POCPickDateAddTime */ = {
 			isa = PBXGroup;
 			children = (
+				94D13B3F1BC8FC65002FEDB1 /* POCPickDateAddTime-Bridging-Header.h */,
 				94D13B1C1BC8FC3A002FEDB1 /* AppDelegate.swift */,
 				94D13B211BC8FC3A002FEDB1 /* ViewController.swift */,
 				94D13B231BC8FC3A002FEDB1 /* Main.storyboard */,
@@ -123,7 +127,6 @@
 		94D13B431BC8FFF5002FEDB1 /* ASDayPicker */ = {
 			isa = PBXGroup;
 			children = (
-				94D13B3F1BC8FC65002FEDB1 /* POCPickDateAddTime-Bridging-Header.h */,
 				94D13B401BC8FC66002FEDB1 /* ASDayPicker.h */,
 				94D13B411BC8FC66002FEDB1 /* ASDayPicker.m */,
 			);
@@ -212,6 +215,7 @@
 			files = (
 				94D13B251BC8FC3A002FEDB1 /* Main.storyboard in Resources */,
 				94D13B2A1BC8FC3A002FEDB1 /* LaunchScreen.xib in Resources */,
+				94D13B471BC96E3C002FEDB1 /* Podfile in Resources */,
 				94D13B271BC8FC3A002FEDB1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
