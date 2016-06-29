@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40A7D4DF33E20B298B719F0F /* Pods_POCPickDateAddTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614F0AF2D0D835EAE7ABB12A /* Pods_POCPickDateAddTime.framework */; };
 		94D13B1D1BC8FC3A002FEDB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D13B1C1BC8FC3A002FEDB1 /* AppDelegate.swift */; };
 		94D13B201BC8FC3A002FEDB1 /* POCPickDateAddTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94D13B1E1BC8FC3A002FEDB1 /* POCPickDateAddTime.xcdatamodeld */; };
 		94D13B221BC8FC3A002FEDB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D13B211BC8FC3A002FEDB1 /* ViewController.swift */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47AC637457D05CF01C210846 /* Pods-POCPickDateAddTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCPickDateAddTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-POCPickDateAddTime/Pods-POCPickDateAddTime.release.xcconfig"; sourceTree = "<group>"; };
+		614F0AF2D0D835EAE7ABB12A /* Pods_POCPickDateAddTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POCPickDateAddTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D13B171BC8FC3A002FEDB1 /* POCPickDateAddTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCPickDateAddTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D13B1B1BC8FC3A002FEDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94D13B1C1BC8FC3A002FEDB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		94D13B401BC8FC66002FEDB1 /* ASDayPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDayPicker.h; sourceTree = "<group>"; };
 		94D13B411BC8FC66002FEDB1 /* ASDayPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDayPicker.m; sourceTree = "<group>"; };
 		94D13B461BC96E3C002FEDB1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		EEBDC90F490B5D531D9FF2AD /* Pods-POCPickDateAddTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCPickDateAddTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POCPickDateAddTime/Pods-POCPickDateAddTime.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A7D4DF33E20B298B719F0F /* Pods_POCPickDateAddTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +69,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19022F461CADCD0E19BB5B07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				614F0AF2D0D835EAE7ABB12A /* Pods_POCPickDateAddTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36770E6EE46E35B5F0CA45F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEBDC90F490B5D531D9FF2AD /* Pods-POCPickDateAddTime.debug.xcconfig */,
+				47AC637457D05CF01C210846 /* Pods-POCPickDateAddTime.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		94D13B0E1BC8FC3A002FEDB1 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +93,8 @@
 				94D13B191BC8FC3A002FEDB1 /* POCPickDateAddTime */,
 				94D13B321BC8FC3A002FEDB1 /* POCPickDateAddTimeTests */,
 				94D13B181BC8FC3A002FEDB1 /* Products */,
+				36770E6EE46E35B5F0CA45F1 /* Pods */,
+				19022F461CADCD0E19BB5B07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94D13B391BC8FC3A002FEDB1 /* Build configuration list for PBXNativeTarget "POCPickDateAddTime" */;
 			buildPhases = (
+				5A87F1C81E50CF3649FC0819 /* 📦 Check Pods Manifest.lock */,
 				94D13B131BC8FC3A002FEDB1 /* Sources */,
 				94D13B141BC8FC3A002FEDB1 /* Frameworks */,
 				94D13B151BC8FC3A002FEDB1 /* Resources */,
+				861D29C47D5381E0BB606479 /* 📦 Embed Pods Frameworks */,
+				625D48AC9FEAF0520CFE4A30 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,11 +204,14 @@
 		94D13B0F1BC8FC3A002FEDB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Liu Jingkai";
 				TargetAttributes = {
 					94D13B161BC8FC3A002FEDB1 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = E56ATFSAWD;
 					};
 					94D13B2E1BC8FC3A002FEDB1 = {
 						CreatedOnToolsVersion = 6.4;
@@ -228,6 +258,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A87F1C81E50CF3649FC0819 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		625D48AC9FEAF0520CFE4A30 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POCPickDateAddTime/Pods-POCPickDateAddTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		861D29C47D5381E0BB606479 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POCPickDateAddTime/Pods-POCPickDateAddTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94D13B131BC8FC3A002FEDB1 /* Sources */ = {
@@ -300,6 +378,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -362,11 +441,15 @@
 		};
 		94D13B3A1BC8FC3A002FEDB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBDC90F490B5D531D9FF2AD /* Pods-POCPickDateAddTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = POCPickDateAddTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guadoo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "POCPickDateAddTime/POCPickDateAddTime-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -375,11 +458,15 @@
 		};
 		94D13B3B1BC8FC3A002FEDB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47AC637457D05CF01C210846 /* Pods-POCPickDateAddTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = POCPickDateAddTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guadoo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "POCPickDateAddTime/POCPickDateAddTime-Bridging-Header.h";
 			};
@@ -399,6 +486,7 @@
 				);
 				INFOPLIST_FILE = POCPickDateAddTimeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guadoo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCPickDateAddTime.app/POCPickDateAddTime";
 			};
@@ -414,6 +502,7 @@
 				);
 				INFOPLIST_FILE = POCPickDateAddTimeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guadoo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCPickDateAddTime.app/POCPickDateAddTime";
 			};
@@ -438,6 +527,7 @@
 				94D13B3B1BC8FC3A002FEDB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D13B3C1BC8FC3A002FEDB1 /* Build configuration list for PBXNativeTarget "POCPickDateAddTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +536,7 @@
 				94D13B3E1BC8FC3A002FEDB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

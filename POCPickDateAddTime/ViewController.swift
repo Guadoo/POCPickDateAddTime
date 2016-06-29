@@ -27,16 +27,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Allow picking from today - 2 weeks to + 2 weeks
-        var twoWeeksAgo = NSDateComponents()
+        let twoWeeksAgo = NSDateComponents()
         twoWeeksAgo.day = 2 * 7
         
-        var twoWeeksBefore = NSDateComponents() as NSDateComponents
+        let twoWeeksBefore = NSDateComponents() as NSDateComponents
         twoWeeksBefore.day = -(2 * 7)
         
-        var today = NSDate()
+        let today = NSDate()
         
-        var startDate = NSCalendar.currentCalendar().dateByAddingComponents(twoWeeksBefore, toDate: today, options: nil)
-        var endDate = NSCalendar.currentCalendar().dateByAddingComponents(twoWeeksAgo, toDate: today, options: nil)
+        let startDate = NSCalendar.currentCalendar().dateByAddingComponents(twoWeeksBefore, toDate: today, options: [])
+        let endDate = NSCalendar.currentCalendar().dateByAddingComponents(twoWeeksAgo, toDate: today, options: [])
         
         selectDate.setStartDate(startDate, endDate: endDate)
         
@@ -47,13 +47,13 @@ class ViewController: UIViewController {
         selectDate.addObserver(self, forKeyPath: "selectedDate", options: NSKeyValueObservingOptions.New, context: nil)
         
         //Default pickerDate as Today
-        var day = NSDate()
+        let day = NSDate()
         pickerDate.text = NSDateFormatter.localizedStringFromDate(day, dateStyle: NSDateFormatterStyle.MediumStyle, timeStyle: NSDateFormatterStyle.NoStyle)
         
         //Setup Radius for totalTime and addTime button
         totalTime.layer.cornerRadius = 40
        
-        var result: UIButton!
+        let result: UIButton!
         for result in addTime {
             result.layer.cornerRadius = 15
         }
@@ -64,17 +64,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    override func observeValueForKeyPath(keyPath: String, ofObject object: AnyObject, change: [NSObject : AnyObject], context: UnsafeMutablePointer<Void>) {
+    override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
         
         if keyPath == "selectedDate"{
-            var day = change[NSKeyValueChangeNewKey] as! NSDate
+            let day = change![NSKeyValueChangeNewKey] as! NSDate
             pickerDate.text = NSDateFormatter.localizedStringFromDate(day, dateStyle: NSDateFormatterStyle.MediumStyle, timeStyle: NSDateFormatterStyle.NoStyle)
         }
     }
     
     @IBAction func addTime(sender: UIButton) {
         
-        var addTimeToArray = sender.titleLabel?.text?.toInt()
+        //var addTimeToArray = Int((sender.titleLabel?.text?)!)
+        
+        let addTimeToArray = Int((sender.titleLabel?.text)!)
         
         addTimeArray.append(addTimeToArray!)
         

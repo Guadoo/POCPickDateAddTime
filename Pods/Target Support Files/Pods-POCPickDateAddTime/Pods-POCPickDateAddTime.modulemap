@@ -1,0 +1,6 @@
+framework module Pods_POCPickDateAddTime {
+  umbrella header "Pods-POCPickDateAddTime-umbrella.h"
+
+  export *
+  module * { export * }
+}
