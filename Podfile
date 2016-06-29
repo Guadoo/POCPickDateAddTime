@@ -8,4 +8,6 @@ target "POCPickDateAddTime" do
 
 pod 'pop','~> 1.0'
 
+pod 'SnapKit', '~> 0.15.0'
+
 end

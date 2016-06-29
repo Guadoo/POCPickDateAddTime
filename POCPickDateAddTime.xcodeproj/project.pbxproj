@@ -46,7 +46,7 @@
 		94D13B3F1BC8FC65002FEDB1 /* POCPickDateAddTime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POCPickDateAddTime-Bridging-Header.h"; sourceTree = "<group>"; };
 		94D13B401BC8FC66002FEDB1 /* ASDayPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDayPicker.h; sourceTree = "<group>"; };
 		94D13B411BC8FC66002FEDB1 /* ASDayPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDayPicker.m; sourceTree = "<group>"; };
-		94D13B461BC96E3C002FEDB1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		94D13B461BC96E3C002FEDB1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EEBDC90F490B5D531D9FF2AD /* Pods-POCPickDateAddTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCPickDateAddTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POCPickDateAddTime/Pods-POCPickDateAddTime.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
