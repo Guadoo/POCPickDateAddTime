@@ -17,6 +17,8 @@
 		94D13B361BC8FC3A002FEDB1 /* POCPickDateAddTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D13B351BC8FC3A002FEDB1 /* POCPickDateAddTimeTests.swift */; };
 		94D13B421BC8FC66002FEDB1 /* ASDayPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D13B411BC8FC66002FEDB1 /* ASDayPicker.m */; };
 		94D13B471BC96E3C002FEDB1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 94D13B461BC96E3C002FEDB1 /* Podfile */; };
+		BC802E941D235A430075C225 /* GDAddTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC802E931D235A430075C225 /* GDAddTimeView.swift */; };
+		BC802E961D254DB50075C225 /* GDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC802E951D254DB50075C225 /* GDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		94D13B401BC8FC66002FEDB1 /* ASDayPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDayPicker.h; sourceTree = "<group>"; };
 		94D13B411BC8FC66002FEDB1 /* ASDayPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDayPicker.m; sourceTree = "<group>"; };
 		94D13B461BC96E3C002FEDB1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC802E931D235A430075C225 /* GDAddTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDAddTimeView.swift; sourceTree = "<group>"; };
+		BC802E951D254DB50075C225 /* GDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDViewController.swift; sourceTree = "<group>"; };
 		EEBDC90F490B5D531D9FF2AD /* Pods-POCPickDateAddTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCPickDateAddTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POCPickDateAddTime/Pods-POCPickDateAddTime.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +117,8 @@
 				94D13B3F1BC8FC65002FEDB1 /* POCPickDateAddTime-Bridging-Header.h */,
 				94D13B1C1BC8FC3A002FEDB1 /* AppDelegate.swift */,
 				94D13B211BC8FC3A002FEDB1 /* ViewController.swift */,
+				BC802E951D254DB50075C225 /* GDViewController.swift */,
+				BC802E931D235A430075C225 /* GDAddTimeView.swift */,
 				94D13B231BC8FC3A002FEDB1 /* Main.storyboard */,
 				94D13B261BC8FC3A002FEDB1 /* Images.xcassets */,
 				94D13B281BC8FC3A002FEDB1 /* LaunchScreen.xib */,
@@ -313,7 +319,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D13B421BC8FC66002FEDB1 /* ASDayPicker.m in Sources */,
+				BC802E961D254DB50075C225 /* GDViewController.swift in Sources */,
 				94D13B221BC8FC3A002FEDB1 /* ViewController.swift in Sources */,
+				BC802E941D235A430075C225 /* GDAddTimeView.swift in Sources */,
 				94D13B201BC8FC3A002FEDB1 /* POCPickDateAddTime.xcdatamodeld in Sources */,
 				94D13B1D1BC8FC3A002FEDB1 /* AppDelegate.swift in Sources */,
 			);
