@@ -257,6 +257,7 @@
                         <viewControllerLayoutGuide type="bottom" id="vjn-ca-gx1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wQB-5H-MFh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n6y-Hg-svK" customClass="GDAddTimeView" customModule="POCPickDateAddTime" customModuleProvider="target">
